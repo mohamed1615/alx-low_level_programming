@@ -1,0 +1,2 @@
+#!/bin/bash
+read -p $CFILE;gcc -c $CFILE >> $CFILE.o
