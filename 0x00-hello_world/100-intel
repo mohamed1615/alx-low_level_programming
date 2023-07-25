@@ -1,2 +1,2 @@
 #!/bin/bash
-read -p $CFILE;gcc -S $CFILE >> $CFILE.s
+read -p $CFILE;gcc -S $CFILE -o >> $CFILE.s
