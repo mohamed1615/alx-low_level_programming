@@ -4,10 +4,11 @@
  * main - prints alhabet char
  *Return: Always 0 (Success)
  */
-int main() {
+int main(void)
+{
 	char letter = 'a';
 
-	while (letter <= 'z') 
+	while (letter <= 'z')
 	{
 		putchar(letter);
 		letter++;
@@ -15,4 +16,3 @@ int main() {
 	putchar('\n');
 	return 0;
 }
-
