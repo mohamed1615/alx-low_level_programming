@@ -26,6 +26,6 @@ int main(void)
 			letter++;
 		}
 	}
-	putchar('\n'); // Added a newline character at the end
-	return 0; // Added a return statement
+	putchar('\n');
+	return 0;
 }
