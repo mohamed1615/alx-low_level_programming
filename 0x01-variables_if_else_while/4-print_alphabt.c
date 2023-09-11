@@ -12,7 +12,8 @@ int main(void)
 
 	while (letter <= 'z')
 	{
-	    if (letter == 'q'){
+	    if (letter == 'q')
+	    {
 	        letter++;
 	    }
 	    else if (letter == 'e')
@@ -24,5 +25,5 @@ int main(void)
 	        putchar(letter);
 	        letter++;
 	    }
-    }
+	}
 }
