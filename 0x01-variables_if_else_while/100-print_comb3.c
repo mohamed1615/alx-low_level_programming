@@ -12,7 +12,7 @@ int main(void)
 	while (tens < 9)
 	{
 		ones = tens + 1;
-		while(ones <=9)
+		while (ones <= 9)
 		{
 			putchar(tens + '0');
 			putchar(ones + '0');
@@ -21,7 +21,7 @@ int main(void)
 				putchar(',');
 				putchar(' ');
 			}
-			ones ++;
+			ones++;
 		}
 		tens++;
 	}
