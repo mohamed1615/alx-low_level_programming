@@ -1,1 +1,1 @@
-char *text (void);
+int putchar(char c);
